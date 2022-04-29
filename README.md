@@ -1,6 +1,6 @@
-# Demo
+# Prvi sajt
 
-Some description
+Ovo prvi sajt koji sam radio u bootstrapu
 
 ## Demo 2
 
