@@ -1,0 +1,311 @@
+/*
+X-Small <576px
+Small >= 576px
+Medium >= 768px
+Large >= 992px
+Extra large >= 1200px
+Extra extra large >= 1400px 
+*/
+
+@media only screen and (max-width: 1400px) {
+    /*HERO SECTION*/
+    .phone {
+        inset: 60% 67% 0% 35%;
+    }
+
+    /*WROTE ABOUT US SECTION*/
+    section.wrote-about-us > div.container > div.row > div.col-12 > h1 {
+        font-size: 3em;
+    }
+
+    /*FOOTER*/
+
+    footer > div.container > div.row > div.col-sm-4 > header > h1 {
+        font-size: 1.4em;
+    }
+
+    footer > div.container > div.row > div.col-sm-4.address > div > a {
+        font-size: .9em;
+    }
+
+    footer > div.container > div.row > div.col-md-4.icons > div > i {
+        font-size: 3.7em;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    /*HERO SECTION*/
+    .phone {
+        width: 34%;
+        inset: 60% 65% 0% 33%;
+    }
+
+    /*SERVICES SECTION*/
+    section.services-section > div.container > div.row {
+        margin-top: 4.5em;
+    }
+
+    section.services-section > div.container > div.row > div.col-lg-4 > i {
+        font-size: 3.8em;
+    }
+
+    section.services-section > div.container > div.row > div.col-lg-4 > h3 {
+        font-size: 1.7em;
+    }
+
+    section.services-section > div.container > div.row > div.col-lg-4 > p {
+        font-size: 1.1em;
+    }
+
+    /*HOW APP WORKS SECTION*/
+    section.how-app-works > div.container > div.row > div.app-col > div.app-row > div.col-12 > h2 {
+        font-size: 1.8em;
+    }
+
+    section.how-app-works > div.container > div.row > div.app-col > div.app-row > div.col-12 > p {
+        font-size: 1.2em;
+    }
+
+    /*WROTE ABOUT US SECTION*/
+    section.wrote-about-us > div.container > div.row {
+        margin: 0;
+    }
+
+    /*FOOTER*/
+    footer > div.container > div.row > div.col-md-4 > div > form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1em;
+    }
+
+    footer > div.container > div.row > div.col-md-4 > div > form > button.subscribe-btn {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    /*HERO SECTION*/
+    section.hero-section > div.header-section > div.row > div.col-md-6 > h1 {
+        font-size: 2.5em;
+    }
+
+    section.hero-section > div.header-section > div.row > div.col-md-6 > a {
+        font-size: .9em;
+    }
+
+    .phone {
+        width: 45%;
+        inset: 50% 65% 0% 28%;
+    }
+
+    .store {
+        width: 90%;
+    }
+
+    /*SERVICES SECTION*/
+    section.services-section > div.container > div.row {
+        margin: 2em auto 2em auto !important;
+    }
+
+    section.services-section > div.container > div.row > div.col-lg-4 {
+        margin: 1em 0 1em 0 !important;
+    }
+
+    section.services-section > div.container > div.row > div.col-lg-4 > p {
+        max-width: 60%;
+    }
+
+    /*PROFILE SECTION*/
+    section.profile-section > div.container-fluid > div.carousel > div.carousel-inner > div.carousel-item > div.container-fluid > h2 {
+        font-size: 2em;
+    }
+
+    section.profile-section > div.container-fluid > div.carousel > div.carousel-inner > div.carousel-item > div.container-fluid > span {
+        font-size: .9em;
+    }
+
+    section.profile-section > div.container-fluid > div.carousel > div.carousel-inner > div.carousel-item > div.container-fluid > span > img {
+        transform: scale(0.9);
+    }
+
+    /*WROTE ABOUT US SECTION*/
+    section.wrote-about-us > div.container {
+        margin-bottom: 0 !important;
+    }
+
+    section.wrote-about-us > div.container > div.row {
+        margin: 0 auto 0 auto !important;
+    }
+
+    section.wrote-about-us > div.container > div.row > div.col-12 > h1 {
+        font-size: 2.3em;
+    }
+
+    /*FOOTER*/
+    footer > div.container > div.row > div.col-md-4 > header > h1 {
+        font-size: 1.8em;
+    }
+
+    footer > div.container > div.row > div.col-md-4.address > div > a {
+        font-size: .9em;
+    }
+
+    footer > div.container > div.row > div.col-md-4 > div > form > button {
+        font-size: .9em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /*HERO SECTION*/
+    section.hero-section {
+        height: 100%;
+    }
+
+    .iphone-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section.hero-section > div.phone-section >  div.row {
+        display: flex !important;
+        align-items: center !important; 
+        justify-content: center !important;
+        margin-top: 2em !important;
+    }
+
+    section.hero-section > div.phone-section >  div.row > div.col-md-4 {
+        align-items: center !important;
+        justify-content: center !important;
+        margin-bottom: .5em !important;
+    }
+
+    .phone {
+        position: relative;
+        width: 65%;
+        inset: 0 0 0 0;
+    }
+
+    .store {
+        width: 35%;
+    }
+
+    section.hero-section > div.header-section > div.row > div.col-md-6 > h1 {
+        font-size: 2em;
+        max-width: 50%;
+    }
+
+    section.hero-section > div.header-section > div.row > div.col-md-6 > a {
+        font-size: .8em;
+    }
+
+    /*HOW APP WORKS SECTION*/
+    section.how-app-works > div.container > div.row {
+        flex-direction: column-reverse !important;
+    }
+
+    section.how-app-works > div.container > div.row > div.app-col > div.app-row > div.col-12 > h2 {
+        font-size: 1.6em;
+    }
+
+    section.how-app-works > div.container > div.row > div.app-col > div.app-row > div.col-12 > p {
+        font-size: 1em;
+    }
+
+    section.how-app-works > div.container > div.row > div.app-col > div.create-share-row > div.create-row > div.col-2 > i {
+        font-size: 2.6em;
+    }
+
+    section.how-app-works > div.container > div.row > div.app-col > div.create-share-row > div.create-row > div.col-10 > h3 {
+        font-size: 1.2em;
+    }
+
+    section.how-app-works > div.container > div.row > div.app-col > div.create-share-row > div.create-row > div.col-10 > p {
+        font-size: .9em;
+    }
+
+    section.how-app-works > div.container > div.row > div.app-col > div.create-share-row > div.share-row > div.col-2 > i {
+        font-size: 2.6em;
+    }
+
+    section.how-app-works > div.container > div.row > div.app-col > div.create-share-row > div.share-row > div.col-10 > h3 {
+        font-size: 1.2em;
+    }
+
+    section.how-app-works > div.container > div.row > div.app-col > div.create-share-row > div.share-row > div.col-10 > p {
+        font-size: .9em;
+    }
+
+    /*PROFILE SECTION*/
+    section.profile-section > div.container-fluid > div.carousel > div.carousel-inner > div.carousel-item > div.container-fluid > span > img {
+        transform: scale(0.8);
+    }
+
+    /*WROTE ABOUT US SECTION*/
+    section.wrote-about-us > div.container > div.row > div.col-md-3 {
+        margin: 2.4em auto 2.4em auto !important;
+    }
+
+    section.wrote-about-us > div.container > div.row > div.col-md-3 > img {
+        width: 45%;
+    }
+
+    /*FOOTER*/
+    footer > div.container > div.row > div.address {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer > div.container > div.row > div.ps-5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    /*HERO SECTION*/
+    section.hero-section > div.header-section > div.row > div.col-md-6 > h1 {
+        max-width: 65%;
+        font-size: 1.7em;
+    }
+
+    .phone {
+        width: 70%;
+    }
+
+    .store {
+        width: 45%;
+    }
+
+    /*SERVICES SECTION*/
+    section.services-section > div.container > div.row > div.col-lg-4 > i {
+        font-size: 3em;
+    }
+
+    section.services-section > div.container > div.row > div.col-lg-4 > h3 {
+        font-size: 1.5em;
+    }
+
+    section.services-section > div.container > div.row > div.col-lg-4 > p {
+        font-size: 1em;
+    }
+
+    /*HOW APP WORKS SECTION*/
+    section.how-app-works > div.container > div.row > div.app-col > div.app-row > div.col-12 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.how-app-works > div.container > div.row > div.app-col > div.app-row > div.col-12 > p {
+        text-align: center;
+    }
+
+    /*WROTE ABOUT US SECTION*/
+    section.wrote-about-us > div.container > div.row > div.col-12 > h1 {
+        font-size: 1.7em;
+    }
+}

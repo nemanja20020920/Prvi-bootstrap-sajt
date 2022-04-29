@@ -1,0 +1,293 @@
+:root {
+  --montserrat-font: 'Montserrat', sans-serif;
+  --open-sans-font: 'Open Sans', sans-serif;
+  --purple-color: rgb(125, 58, 161);
+  --grey-color: rgb(96, 96, 96);
+  --light-grey-color: rgb(204, 206, 207);
+  --light-dark-color: rgb(48, 48, 48);
+}
+
+html {
+  max-width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html > body > hr {
+  max-width: 85%;
+  border: .1em solid var(--light-grey-color);
+  background: var(--light-grey-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/****************************************************************************HERO SECTION**********************************************************************/
+
+section.hero-section {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-image: url(../slike/hero-section.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.hero-section > header > nav > div.container-fluid > div > a.brand-text {
+  font: 400 1.5em var(--open-sans-font);
+  color: rgb(var(--bs-white-rgb));
+  text-decoration: none;
+}
+
+section.hero-section > header > nav > div.container-fluid > div.collapse > ul > li > a {
+  font: 100 1.5em var(--montserrat-font);
+  color: rgb(var(--bs-white-rgb));
+  text-decoration: none;
+}
+
+section.hero-section > header > nav > div.container-fluid > div.collapse > ul > li > a:hover {
+  font: 100 1.5em var(--montserrat-font);
+  color: rgb(var(--bs-white-rgb));
+  text-decoration: none;
+}
+
+section.hero-section > header > nav > div.container-fluid > div.collapse > ul > li > a:focus {
+  font: 100 1.5em var(--montserrat-font);
+  color: rgb(var(--bs-white-rgb));
+  text-decoration: none;
+}
+
+section.hero-section > header > nav > div.container-fluid > button.hamburger-menu-btn {
+  border: none;
+}
+
+section.hero-section > header > nav > div.container-fluid > button.hamburger-menu-btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+section.hero-section > header > nav > div.container-fluid > button.hamburger-menu-btn > i.bars {
+  font-size: 2em;
+  color: rgb(var(--bs-white-rgb));
+}
+
+section.hero-section > div.header-section > div.row > div.col-md-6 > h1 {
+  font: 100 3em var(--montserrat-font);
+  color: rgb(var(--bs-white-rgb));
+}
+
+section.hero-section > div.header-section > div.row > div.col-md-6 > a {
+  font: 600 1em var(--open-sans-font);
+  color: rgb(var(--bs-white-rgb));
+  text-decoration: none;
+}
+
+.header-section {
+  height: 40%;
+}
+
+.phone-section {
+  height: 50%;
+}
+
+.link-text {
+  display:flex;
+  justify-content: flex-end;
+}
+
+.phone {
+  position: absolute;
+  width: 30%;
+  inset: 50% 67% 0% 35%;
+}
+
+.store {
+  width: 60%;
+}
+
+.stores-phone {
+  height: 100%;
+}
+
+/**************************************************************SERVICES SECTION****************************************************************************/
+
+section.services-section {
+  width: 100vw;
+  height: 100%;
+}
+
+section.services-section > div.container {
+  height: 100%;
+}
+
+section.services-section > div.container > div.row {
+  height: 100%;
+  margin-top: 5em;
+}
+
+section.services-section > div.container > div.row > div.col-lg-4 > i {
+  font-size: 4.5em;
+  color: var(--purple-color);
+}
+
+section.services-section > div.container > div.row > div.col-lg-4 > h3 {
+  font-size: 2em;
+  color: var(--grey-color);
+}
+
+section.services-section > div.container > div.row > div.col-lg-4 > p {
+  font: 400 1.3em var(--open-sans-font);
+  color: var(--light-grey-color);
+}
+
+/************************************************ HOW APP WORKS SECTION *******************************************/
+
+section.how-app-works {
+  width: 100vw;
+  height: 100%;
+}
+
+section.how-app-works > div.container {
+  height: 100%;
+}
+
+section.how-app-works > div.container > div.row {
+  height: 100%;
+}
+
+section.how-app-works > div.container > div.row > div.app-col > div.app-row > div.col-12 > h2 {
+  font: 400 2em var(--open-sans-font);
+  color: var(--light-dark-color);
+}
+
+section.how-app-works > div.container > div.row > div.app-col > div.app-row > div.col-12 > p {
+  font: 400 1.3em var(--open-sans-font);
+  color: var(--light-grey-color);
+}
+
+section.how-app-works > div.container > div.row > div.app-col > div.create-share-row > div.create-row > div.col-2 > i {
+  font-size: 3em;
+  color: var(--purple-color);
+}
+
+section.how-app-works > div.container > div.row > div.app-col > div.create-share-row > div.create-row > div.col-10 > h3 {
+  font: 600 1.3em var(--open-sans-font);
+  color: var(--grey-color);
+}
+
+section.how-app-works > div.container > div.row > div.app-col > div.create-share-row > div.create-row > div.col-10 > p {
+  font: 400 1em var(--open-sans-font);
+  color: var(--light-grey-color);
+}
+
+section.how-app-works > div.container > div.row > div.app-col > div.create-share-row > div.share-row > div.col-2 > i {
+  font-size: 3em;
+  color: var(--purple-color);
+}
+
+section.how-app-works > div.container > div.row > div.app-col > div.create-share-row > div.share-row > div.col-10 > h3 {
+  font: 600 1.3em var(--open-sans-font);
+  color: var(--grey-color);
+}
+
+section.how-app-works > div.container > div.row > div.app-col > div.create-share-row > div.share-row > div.col-10 > p {
+  font: 400 1em var(--open-sans-font);
+  color: var(--light-grey-color);
+}
+
+/*********************************************************************PROFILE SECTION*********************************************/
+
+section.profile-section {
+  max-height: 60vh;
+  width: 100vw;
+}
+
+section.profile-section > div.container-fluid > div.carousel > div.carousel-inner > div.carousel-item {
+  height: 60vh;
+}
+
+section.profile-section > div.container-fluid > div.carousel > div.carousel-inner > div.carousel-item > div.container-fluid > h2 {
+  font: 400 2.5em var(--open-sans-font);
+  color: rgb(var(--bs-white-rgb));
+}
+
+section.profile-section > div.container-fluid > div.carousel > div.carousel-inner > div.carousel-item > div.container-fluid > span > p {
+  font: 400 1em var(--open-sans-font);
+  color: rgb(var(--bs-white-rgb));
+  max-width: 80%;
+}
+
+section.profile-section > div.container-fluid > div.carousel > div.carousel-inner > div.carousel-item > div.container-fluid > span > p > span#quote {
+  color: rgb(var(--bs-secondary-rgb));
+}
+
+
+section.profile-section > div.container-fluid > div.carousel > div.carousel-inner > div.carousel-item > div.container-fluid > span > img {
+  border: solid rgb(var(--bs-white-rgb)) .3em;
+  border-radius: 50%;
+}
+
+section.profile-section > div.container-fluid > div.carousel > div.carousel-inner > div.carousel-item {
+  background-image: url(../slike/profile-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/******************************************WROTE ABOUT   US**********************************/
+
+section.wrote-about-us {
+  width: 100%;
+  height: 100%;
+}
+
+section.wrote-about-us > div.container > div.row > div.col-12 > h1 {
+  font: 400 4em var(--open-sans-font);
+  color: var(--light-dark-color);
+}
+
+section.wrote-about-us > div.container > div#newspappers {
+  background-color: rgb(var(--bs-white-rgb));
+  opacity: .2;
+}
+
+section.wrote-about-us > div.container > div.row > div.col-md-3 > img {
+  width: 70%;
+  z-index: -1;
+}
+
+/***************************************************************FOOTER*****************************************************/
+
+footer > div.container > div.row > div.col-md-4 > header > h1 {
+  font: 600 1.9em var(--open-sans-font);
+  color: var(--grey-color);
+}
+
+footer > div.container > div.row > div.col-md-4.address > div > i {
+  font-size: 1.5em;
+  color: var(--purple-color);
+}
+
+footer > div.container > div.row > div.col-md-4.address > div > a {
+  font: 400 1em var(--open-sans-font);
+  color: var(--grey-color);
+  text-decoration: none !important;
+}
+
+footer > div.container > div.row > div.col-md-4.icons > div > i {
+  font-size: 4em;
+  color: var(--light-grey-color);
+}
+
+footer > div.container > div.row > div.col-md-4 > div > form > input {
+  border: none;
+  border-bottom: .18em solid var(--light-grey-color);
+  outline: none !important;
+}
+
+footer > div.container > div.row > div.col-md-4 > div > form > button {
+  border: none;
+  margin-left: 1em;
+  padding: .3em .7em .3em .7em;
+  font: 400 1em var(--open-sans-font);
+  background-color: var(--purple-color);
+  color: rgb(var(--bs-white-rgb));
+}
