@@ -2,6 +2,6 @@
 
 Ovo prvi sajt koji sam radio u bootstrapu
 
-## Demo 2
+## Druga promena
 
-Some description again
+Ovo je druga promena koju sam napravio
