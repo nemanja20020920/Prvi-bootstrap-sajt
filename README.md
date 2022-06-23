@@ -1,7 +1,3 @@
 # Prvi sajt
 
-Ovo prvi sajt koji sam radio u bootstrapu
-
-## Druga promena
-
-Ovo je druga promena koju sam napravio
+Ovo je prvi sajt koji sam radio u bootstrapu, cilj mi je bio da isprobam sto vise Bootstrap funkcionalnosti.
